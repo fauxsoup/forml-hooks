@@ -1,0 +1,44 @@
+{
+  "name": "@forml/hooks",
+  "version": "1.0.0",
+  "description": "Hooks for use with @forml/core",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint src/**/*.jsx",
+    "build": "babel src --out-dir lib",
+    "watch": "babel src --out-dir lib --watch",
+    "prepublish": "npm run build",
+    "test": "jest --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fauxsoup/forml-hooks.git"
+  },
+  "keywords": [
+    "forml",
+    "hooks",
+    "react",
+    "json",
+    "schema",
+    "form"
+  ],
+  "author": "Zachary Hueras",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fauxsoup/forml-hooks/issues"
+  },
+  "homepage": "https://github.com/fauxsoup/forml-hooks#readme",
+  "devDependencies": {
+    "@testing-library/react": "^11.2.2",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.14.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.21.5",
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
