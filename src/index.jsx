@@ -1,5 +1,5 @@
 import context from '@forml/context';
-import {useReactContext} from 'react';
+import {useContext as useReactContext} from 'react';
 
 /**
  * Hook to use the entire forml context
